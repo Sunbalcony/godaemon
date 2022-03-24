@@ -6,7 +6,7 @@ Run golang app as background program, 以后台形式运行golang
 ## 安装：
 
 ```
-go get github.com/CodyGuo/godaemon
+go get github.com/Sunbalcony/godaemon
 ```
 
 ## 示例:
@@ -15,7 +15,7 @@ go get github.com/CodyGuo/godaemon
 package main
 
 import (
-	_ "github.com/CodyGuo/godaemon"
+	_ "github.com/Sunbalcony/godaemon"
 	"log"
 	"net/http"
 )
